@@ -1,0 +1,81 @@
+*{
+    font-family: sans-serif;
+}
+
+
+/*----------- Main Container -------------*/
+#container{
+    background-color: whitesmoke;
+    width: 500px;
+    margin-top: 0px;
+    border: 2px solid black;
+    border-radius: 5px;   
+}
+
+
+/*-----------Header-----------*/
+#header-container{
+    background-color:rgb(167, 167, 209);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px 5px 0px 0px ; 
+    background-image: linear-gradient(to right, #ffffff, #e4e2fe, #c4c8fe, #9cafff, #6598ff ) ;    
+}
+
+#header-container img{
+   margin: 15px;
+   
+
+}
+
+#header-container #header{
+    line-height: 10px;
+}
+
+/*-----------Content Section-----------*/
+
+#section-container1{
+    line-height: 4px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 30px 0px 40px;
+
+}
+#section-container1 span{
+    color: darkblue;
+}
+#section-container1 #content-container{
+  letter-spacing: 1px;
+  font-weight: 900;
+}
+
+
+#section-container2 #signature{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#section-container2 #section-content{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#aside-container img{
+    border: 2px solid black;
+}
+
+/*----------- Footer Section -----------*/
+
+#footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top:5px;
+    background-color:#6598ff;
+    color:white;
+    border-radius: 0px 0px 5px 5px;
+}
+
+
